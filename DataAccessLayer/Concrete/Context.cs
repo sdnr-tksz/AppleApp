@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=LAPTOP-2F6INANL\\SQLEXPRESS; database=AppleAppDb;integrated security= true;");
+            optionsBuilder.UseSqlServer("server=LAPTOP-2F6INANL\\SQLEXPRESS; database=AppleAppDb;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=False;");
         }
 
         public DbSet<About> Abouts { get; set; }

@@ -9,8 +9,7 @@ namespace EntityLayer.Concrete
 {
     public class Guide
     {
-        [Key]
-        public int GuideId { get; set; }
+        [Key] public int GuideId { get; set; }
         public string? Name { get; set; }
         public string? Department { get; set; }
         public string? Image { get; set; }
