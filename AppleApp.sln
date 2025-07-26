@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleApp", "AppleApp\AppleApp.csproj", "{5D75F510-62DF-4987-A3E1-02A6C8BF51D6}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{4381896D-E0B6-484D-AB57-2FDD27A5BBEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{313B8950-2CCF-4599-BBC0-A3B242F0C47A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleAppServices", "AppleAppServices\AppleAppServices.csproj", "{EECC82F2-E089-40D1-97FA-EF41303E0C14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{313B8950-2CCF-4599-BBC0-A3B242F0C47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{313B8950-2CCF-4599-BBC0-A3B242F0C47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{313B8950-2CCF-4599-BBC0-A3B242F0C47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECC82F2-E089-40D1-97FA-EF41303E0C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECC82F2-E089-40D1-97FA-EF41303E0C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECC82F2-E089-40D1-97FA-EF41303E0C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECC82F2-E089-40D1-97FA-EF41303E0C14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

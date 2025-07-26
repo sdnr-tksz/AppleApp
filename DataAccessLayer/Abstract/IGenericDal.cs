@@ -12,6 +12,6 @@ namespace DataAccessLayer.Abstract
         void Insert(T t);
         void Delete(T t);
         void Update(T t);
-        List<T> GetGuides();
+        List<T> GetList();
     }
 }
