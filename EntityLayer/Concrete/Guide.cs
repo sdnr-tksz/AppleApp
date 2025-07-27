@@ -13,6 +13,8 @@ namespace EntityLayer.Concrete
         public string? Name { get; set; }
         public string? Department { get; set; }
         public string? Image { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
         public string? LinkedinUrl { get; set; }
         public string? InstagramUrl { get; set; }
         public string? XUrl { get; set; }
