@@ -11,19 +11,19 @@ namespace BusinessLayer.Concrete
 {
     public class ProjectManager : IProjectServices
     {
-        IProjectDal _serviceDal;
-        public ProjectManager(IProjectDal serviceDal)
+        IProjectDal _projectDal;
+        public ProjectManager(IProjectDal projectDal)
         {
-            _serviceDal = serviceDal;
+            _projectDal = projectDal;
         }
         public void TAdd(Project t)
         {
-            _serviceDal.Insert(t);
+            _projectDal.Insert(t);
         }
 
         public void TDelete(Project t)
         {
-            _serviceDal.Delete(t);
+            _projectDal.Delete(t);
         }
 
         public Project TGetByID(int id)
@@ -33,12 +33,12 @@ namespace BusinessLayer.Concrete
 
         public List<Project> TGetList()
         {
-            return _serviceDal.GetList();
+            return _projectDal.GetList();
         }
 
         public void TUpdate(Project t)
         {
-            _serviceDal.Update(t);
+            _projectDal.Update(t);
         }
     }
 }
